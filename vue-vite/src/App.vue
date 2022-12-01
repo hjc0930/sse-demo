@@ -36,6 +36,7 @@ const close = () => {
 </script>
 
 <template>
+  <h1>Demo History</h1>
   <div>
     <h1>testSSE: <button @click="close">关闭</button></h1>
     <h2>默认事件Message返回值：{{ sourceData.message }}</h2>
